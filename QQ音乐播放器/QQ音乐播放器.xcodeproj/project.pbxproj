@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D709871C4CCD22000AA0AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D709861C4CCD22000AA0AB /* ViewController.m */; };
 		8620C0F71C4370D500241D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620C0F61C4370D500241D39 /* main.m */; };
 		8620C0FA1C4370D500241D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620C0F91C4370D500241D39 /* AppDelegate.m */; };
-		8620C0FD1C4370D500241D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8620C0FC1C4370D500241D39 /* ViewController.m */; };
 		8620C1001C4370D500241D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8620C0FE1C4370D500241D39 /* Main.storyboard */; };
 		8620C1021C4370D500241D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8620C1011C4370D500241D39 /* Assets.xcassets */; };
 		8620C1051C4370D500241D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8620C1031C4370D500241D39 /* LaunchScreen.storyboard */; };
@@ -85,12 +85,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18D709851C4CCD22000AA0AB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "QQ音乐播放器/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		18D709861C4CCD22000AA0AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "QQ音乐播放器/ViewController.m"; sourceTree = SOURCE_ROOT; };
 		8620C0F21C4370D500241D39 /* QQ音乐播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QQ音乐播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8620C0F61C4370D500241D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8620C0F81C4370D500241D39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8620C0F91C4370D500241D39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8620C0FB1C4370D500241D39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../ViewController.h; sourceTree = "<group>"; };
-		8620C0FC1C4370D500241D39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../ViewController.m; sourceTree = "<group>"; };
 		8620C0FF1C4370D500241D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8620C1011C4370D500241D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8620C1041C4370D500241D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -290,8 +290,8 @@
 		8620C1291C43714100241D39 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8620C0FB1C4370D500241D39 /* ViewController.h */,
-				8620C0FC1C4370D500241D39 /* ViewController.m */,
+				18D709851C4CCD22000AA0AB /* ViewController.h */,
+				18D709861C4CCD22000AA0AB /* ViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -597,7 +597,6 @@
 				8620C1711C4372B400241D39 /* MJPropertyKey.m in Sources */,
 				8620C1541C4372A200241D39 /* NSArray+MASAdditions.m in Sources */,
 				8643ED331C4802EC0003B378 /* SYBlendLabel.m in Sources */,
-				8620C0FD1C4370D500241D39 /* ViewController.m in Sources */,
 				8620C1751C4372B400241D39 /* NSObject+MJKeyValue.m in Sources */,
 				8620C1721C4372B400241D39 /* MJPropertyType.m in Sources */,
 				86BA466E1C46A07900E56D99 /* SYLyricTool.m in Sources */,
@@ -611,6 +610,7 @@
 				8620C1731C4372B400241D39 /* NSObject+MJClass.m in Sources */,
 				86DCB4B21C4A1B0500AE0231 /* SYLyricView.m in Sources */,
 				8620C1561C4372A200241D39 /* View+MASAdditions.m in Sources */,
+				18D709871C4CCD22000AA0AB /* ViewController.m in Sources */,
 				8620C1771C4372B400241D39 /* NSString+MJExtension.m in Sources */,
 				8620C1521C4372A200241D39 /* MASViewAttribute.m in Sources */,
 				862FAB591C4497F900BA0065 /* SYPlayerMananger.m in Sources */,

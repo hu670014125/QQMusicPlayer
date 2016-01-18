@@ -50,6 +50,9 @@
 @property (nonatomic, strong) NSArray *songArray;
 //计时器
 @property (nonatomic, strong) NSTimer *timer;
+
+//计时器(图片)
+@property (nonatomic, strong) NSTimer *timerImage;
 //歌词数据数组
 @property (nonatomic, strong) NSArray *lyricArray;
 //当前歌词索引
@@ -228,7 +231,7 @@
 #pragma mark 计时器更新方法
 -(void)startUpdate{
 
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateInfo) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateInfo) userInfo:nil repeats:YES];
 }
 
 #pragma mark 计时器停止更新的方法
@@ -248,7 +251,7 @@
     //2. 滑块的值
     self.slider.value = manager.currentTime / manager.duration;
     //3. 竖屏中间图像的旋转
-    self.vImageView.transform = CGAffineTransformRotate(self.vImageView.transform, M_PI_4 * 0.1);
+    self.vImageView.transform = CGAffineTransformRotate(self.vImageView.transform, M_PI_4 * 0.004);
     //4. 歌词
     [self updateLyric];
 }
