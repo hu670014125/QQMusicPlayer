@@ -7,4 +7,4 @@
 
 2.优化音乐播放时歌词变色卡顿现象
 
-![image](https://github.com/hu670014125/WJTouchID/raw/master/Untitled.gif)
+![image](https://github.com/hu670014125/QQMusicPlayer/raw/master/Untitled.gif)
